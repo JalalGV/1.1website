@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(white, black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p{
+    color: aqua;
+    font-family: 'consolas', Courier, monospace;
+    font-style: italic;
+    font-size: 20px;
+}
+img{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background-color: black;
+}
+footer{
+    display: block;
+    color: white;
+    text-align: center;
+    size: 20px;
+}
+.container {
+    text-align: center;
+}
+.side-by-side {
+    display: inline-block;
+    margin: 50px;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.center-button {
+    display: inline-block;
+    margin: 50px;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: black;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
+    border-radius: 5px;
+    cursor: pointer;
+}
